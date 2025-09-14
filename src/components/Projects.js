@@ -11,6 +11,8 @@ import projImg8 from "../assets/img/projet8.png";
 import projImg9 from "../assets/img/projet9.png";
 import projImg10 from "../assets/img/projet10.png";
 import projImg11 from "../assets/img/projet11.png";
+import projImg12 from "../assets/img/projet12.png";
+import projImg13 from "../assets/img/projet13.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -45,6 +47,21 @@ const aiProjects = [
     description: "Deep Learning Project",
     imgUrl: projImg2,
     githubLink: "https://github.com/Niihaad/DL__Projects/blob/main/FingerPrintDetection_Project.ipynb",
+  },
+  {
+    title: "RAG Assistant based on LLM and embeddings",
+    description: "AI Project",
+    imgUrl: projImg12,
+    githubLink: "https://github.com/Niihaad/chatbot-RAG", 
+ 
+  },
+  ,
+  {
+    title: "Video surveillance system for real-time detection and tracking of forgotten or recovered objects",
+    description: "AI Project",
+    imgUrl: projImg13,
+    githubLink: "https://github.com/Niihaad/Project_AbandonedObjectDetection", 
+ 
   },
   {
     title: "Building and deployment of Mortgage Trading Analysis Pipeline",
