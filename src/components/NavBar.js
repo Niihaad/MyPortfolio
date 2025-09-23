@@ -54,7 +54,7 @@ export const NavBar = () => {
                 <a href="https://github.com/Niihaad"><img src={navIcon2} alt="" /></a>
                 <a href={`mailto:nihadelbari7@gmail.com`}> <img src={navIcon3} alt="" /></a>
               </div>
-              <a href="CV.pdf" download>
+              <a href="NihadCV_PFE.pdf" download>
                 <button className="vvd"><span>Get My CV</span></button>
               </a>
 

@@ -11,7 +11,7 @@ export const Banner = () => {
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = [ "  Full Stack Developer", "  AI Engineer", " Data Science Engineer"  ];
+  const toRotate = [ "  AI Engineer", " Data Science Engineer" ,"  Full Stack Developer",  ];
   const period = 2000;
 
   useEffect(() => {
@@ -57,8 +57,8 @@ export const Banner = () => {
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome to my Portfolio</span>
                 <h2>{`Hi! I'm NIHAD ELBARI    `} </h2><h2><span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Full Stack Developer", "AI Engineer", "Data Science Engineer" ]'><span className="wrap">{text}</span></span></h2>
-                  <p>Welcome Back to My Portfolio ! I am passionate about creating applications that seamlessly integrate the front-end, back-end, and database to provide effective solutions to real-world problems.
-                   <p>Feel free to explore my LinkedIn profile for more information about my background and projects. Additionally, you can check out my GitHub profile to see my work in detail.</p></p>
+                  <p>I am an AI & Data Science enthusiast and a Full Stack Developer passionate about leveraging Artificial Intelligence to create impactful and innovative solutions. My work combines expertise in front-end, back-end, and databases with advanced AI/ML models, turning complex ideas into real-world applications.
+                   <p>Feel free to explore my LinkedIn for more about my background, and visit my GitHub to discover my projects in detail.</p></p>
                 <a href="#connect"><button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button></a> 
              </div>}
             </TrackVisibility>
